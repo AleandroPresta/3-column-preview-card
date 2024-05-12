@@ -1,0 +1,32 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+
+  display: grid;
+  place-content: center;
+}
+
+p {
+  font-size: 15px;
+}
+
+/*
+
+    FONT INFO
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+*/
