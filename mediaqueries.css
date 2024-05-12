@@ -1,9 +1,35 @@
 @media screen and (min-width: 500px) {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
 
-    .container {
-        flex-direction: row;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    
+  .container {
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    height: 400px;
+    width: 900px;
+  }
+
+  .section {
+    height: 100%;
+  }
+
+  button {
+    margin-top: 65px;
+  }
+
+  .left-section {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .right-section {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+  }
+  
 }
