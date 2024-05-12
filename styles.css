@@ -91,6 +91,23 @@ button {
   color: var(--very-dark-cyan);
 }
 
+button:hover {
+  border: 1px solid var(--very-light-gray);
+  cursor: pointer;
+}
+
+#left-button:hover {
+  background-color: var(--bright-orange);
+}
+
+#center-button:hover {
+  background-color: var(--dark-cyan);
+}
+
+#right-button:hover {
+  background-color: var(--very-dark-cyan);
+}
+
 /*
 
     FONT INFO
