@@ -98,14 +98,17 @@ button:hover {
 
 #left-button:hover {
   background-color: var(--bright-orange);
+  color: var(--transparent-white);
 }
 
 #center-button:hover {
   background-color: var(--dark-cyan);
+  color: var(--transparent-white);
 }
 
 #right-button:hover {
   background-color: var(--very-dark-cyan);
+  color: var(--transparent-white);
 }
 
 /*
